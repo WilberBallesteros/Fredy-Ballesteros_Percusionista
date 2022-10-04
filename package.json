@@ -4,7 +4,7 @@
   "description": "Landing Page de Fredy Ballesteros, músico percusionista",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/WilberBallesteros/Fredy-Ballesteros_Percusionista/issues"
   },
-  "homepage": "https://github.com/WilberBallesteros/Fredy-Ballesteros_Percusionista#readme"
+  "homepage": "https://github.com/WilberBallesteros/Fredy-Ballesteros_Percusionista#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
